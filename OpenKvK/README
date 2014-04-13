@@ -1,0 +1,16 @@
+This application was created in response to the OpenKvK (www.openkvk.nl) project requesting a native Android application.
+
+Note that this application is of interest only for those who can understand Dutch.
+This is due primarily to the fact that the information provided by the database at OpenKvK is in Dutch.
+
+This is a complete Android application that should compile as-is using a standard Eclipse and
+Android Development Tools (ADT) installation.
+
+This application and all the source it contains is public domain, Open Source under the BSD License.
+
+Holder of record of the Copyright (c) 2013, 2014 is:
+InfComTec
+Kaaghof 1
+6843 NM Arnhem
+Web: www.infcomtec.nl
+Kvk (Chamber of commerce): 27304499
