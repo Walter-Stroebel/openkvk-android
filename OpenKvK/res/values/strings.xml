@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenKvK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="zoekhint">Zoek op naam, kvk of adres</string>
+    <string name="doelstelling">DOELSTELLING: HANDELSREGISTER 24X7 BEREIKBAAR MET ANDROID</string>
+    <string name="zoek">ZOEK</string>
+    <string name="naam">Naam/KvK</string>
+    <string name="adres">Straat</string>
+    <string name="plaats">Plaats</string>
+    <string name="postcode">Postcode</string>
+    <string name="naamHint">Bedrijfsnaam of KvK</string>
+    <string name="hintStraat">Straat (en nummer)</string>
+    <string name="hintPostcode">1234AB</string>
+    <string name="hintPlaats">Plaatsnaam</string>
+    <string name="wis">Wis</string>
+    <string name="title_activity_kv_k__details">Details</string>
+    <string name="handelsnaam">Handelsnaam</string>
+    <string name="hintHandelsnaam">Een merk- of productnaam</string>
+
+    <string-array name="Copyright">
+        <item>This application is OpenSource, under the BSD license model.</item>
+        <item>If contested, the intellectual property rights (c) 2013,2014 belong to:</item>
+        <item>InfComTec</item>
+        <item>Kaaghof 1</item>
+        <item>6843 NM Arnhem</item>
+        <item>Web: www.infcomtec.nl</item>
+        <item>Kvk (Chamber of commerce): 27304499</item>
+    </string-array>
+
+</resources>

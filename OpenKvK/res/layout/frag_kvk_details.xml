@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/l_kvk_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Kamer van Koophandel details" />
+        
+        <TableLayout
+            android:id="@+id/kvk_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_kvk_details" >
+        </TableLayout>
+            
+        <TextView
+            android:id="@+id/l_sectoren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sectoren (SBI codes)"
+            android:layout_below="@+id/kvk_details" />
+        
+        <TableLayout
+            android:id="@+id/sectoren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_sectoren" >
+            
+        </TableLayout>
+            
+        <TextView
+            android:id="@+id/l_trademarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Handelsnamen"
+            android:layout_below="@+id/sectoren" />
+        
+        <TableLayout
+            android:id="@+id/trademarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_trademarks" >
+        </TableLayout>
+        
+        <TextView
+            android:id="@+id/l_faillis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Faillissementen"
+            android:layout_below="@+id/trademarks" />
+        
+        <TableLayout
+            android:id="@+id/faillis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_faillis" >
+        </TableLayout>
+
+        </RelativeLayout>
+
+</ScrollView>

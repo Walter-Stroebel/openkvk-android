@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dip"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenKvk(mdpi) - Android Application (c) 2013 by InfComTec"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <include layout="@layout/frag_kvk_details"/>
+</LinearLayout>
