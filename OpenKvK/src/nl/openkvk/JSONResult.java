@@ -9,6 +9,7 @@ import org.json.simple.JSONObject;
 
 public class JSONResult {
 	private class ResultField {
+		@SuppressWarnings("unused")
 		final String type;
 		final String value;
 
